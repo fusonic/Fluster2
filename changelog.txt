@@ -1,0 +1,13 @@
+1.2.0
+--------------------------------------------------------------------------------
+* Added "minimumClusterSize" property (default: 0) specifying the minimum number
+  of markers required within one cluster area to show the cluster icon instead
+  of the markers themselves.
+* Added "maximumZoomLevel" property (default: 20) specifying the maximum zoom
+  level at which clusters should be formed. In zoom levels above the specified
+  markers will be shown as they are.
+* Fixed bug where re-assignment of markers to the map caused flickering when
+  dragging the map.
+* Improved handling of zoom level / map bounds changes. Moved createCluster()
+  and showClustersInBounds() calls to draw method of projection overlay.
+* Added new clear() method which removes all markers and clusters.

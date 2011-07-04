@@ -1,0 +1,3 @@
+We used MarkerClusterer in our applications too but wanted to migrate to Google Maps v3. So we had to write our own clusterer logic or adapt MarkerClusterer to work for v3. The result is Fluster2, a new clusterer built from scratch but based on the same logic as MarkerClusterer. 
+
+Licence LGPL
